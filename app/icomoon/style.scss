@@ -1,0 +1,543 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?slny9h') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?slny9h') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?slny9h##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icm-"], [class*=" icm-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icm-instagram {
+  &:before {
+    content: $icm-instagram; 
+  }
+}
+.icm-negotiation .path1 {
+  &:before {
+    content: $icm-negotiation-path1;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-negotiation .path2 {
+  &:before {
+    content: $icm-negotiation-path2;  
+    margin-left: -1em;  
+    color: rgb(60, 206, 82);
+  }
+}
+.icm-negotiation .path3 {
+  &:before {
+    content: $icm-negotiation-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-negotiation .path4 {
+  &:before {
+    content: $icm-negotiation-path4;  
+    margin-left: -1em;  
+    color: rgb(60, 206, 82);
+  }
+}
+.icm-negotiation .path5 {
+  &:before {
+    content: $icm-negotiation-path5;  
+    margin-left: -1em;  
+    color: rgb(60, 206, 82);
+  }
+}
+.icm-negotiation .path6 {
+  &:before {
+    content: $icm-negotiation-path6;  
+    margin-left: -1em;  
+    color: rgb(60, 206, 82);
+  }
+}
+.icm-negotiation .path7 {
+  &:before {
+    content: $icm-negotiation-path7;  
+    margin-left: -1em;  
+    color: rgb(60, 206, 82);
+  }
+}
+.icm-negotiation .path8 {
+  &:before {
+    content: $icm-negotiation-path8;  
+    margin-left: -1em;  
+    color: rgb(60, 206, 82);
+  }
+}
+.icm-negotiation .path9 {
+  &:before {
+    content: $icm-negotiation-path9;  
+    margin-left: -1em;  
+    color: rgb(60, 206, 82);
+  }
+}
+.icm-negotiation .path10 {
+  &:before {
+    content: $icm-negotiation-path10;  
+    margin-left: -1em;  
+    color: rgb(60, 206, 82);
+  }
+}
+.icm-negotiation .path11 {
+  &:before {
+    content: $icm-negotiation-path11;  
+    margin-left: -1em;  
+    color: rgb(60, 206, 82);
+  }
+}
+.icm-negotiation .path12 {
+  &:before {
+    content: $icm-negotiation-path12;  
+    margin-left: -1em;  
+    color: rgb(60, 206, 82);
+  }
+}
+.icm-negotiation .path13 {
+  &:before {
+    content: $icm-negotiation-path13;  
+    margin-left: -1em;  
+    color: rgb(60, 206, 82);
+  }
+}
+.icm-placeholder-filled-point {
+  &:before {
+    content: $icm-placeholder-filled-point; 
+  }
+}
+.icm-play-circle {
+  &:before {
+    content: $icm-play-circle; 
+  }
+}
+.icm-search {
+  &:before {
+    content: $icm-search; 
+  }
+}
+.icm-settings .path1 {
+  &:before {
+    content: $icm-settings-path1;  
+    color: rgb(60, 206, 82);
+  }
+}
+.icm-settings .path2 {
+  &:before {
+    content: $icm-settings-path2;  
+    margin-left: -1em;  
+    color: rgb(60, 206, 82);
+  }
+}
+.icm-settings .path3 {
+  &:before {
+    content: $icm-settings-path3;  
+    margin-left: -1em;  
+    color: rgb(60, 206, 82);
+  }
+}
+.icm-settings .path4 {
+  &:before {
+    content: $icm-settings-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-sketch .path1 {
+  &:before {
+    content: $icm-sketch-path1;  
+    color: rgb(60, 206, 82);
+  }
+}
+.icm-sketch .path2 {
+  &:before {
+    content: $icm-sketch-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-telegram {
+  &:before {
+    content: $icm-telegram; 
+  }
+}
+.icm-telephone {
+  &:before {
+    content: $icm-telephone; 
+  }
+}
+.icm-twitter-logo-silhouette {
+  &:before {
+    content: $icm-twitter-logo-silhouette; 
+  }
+}
+.icm-word .path1 {
+  &:before {
+    content: $icm-word-path1;  
+    color: rgb(21, 101, 192);
+  }
+}
+.icm-word .path2 {
+  &:before {
+    content: $icm-word-path2;  
+    margin-left: -1em;  
+    color: rgb(21, 101, 192);
+  }
+}
+.icm-word .path3 {
+  &:before {
+    content: $icm-word-path3;  
+    margin-left: -1em;  
+    color: rgb(250, 250, 250);
+  }
+}
+.icm-word .path4 {
+  &:before {
+    content: $icm-word-path4;  
+    margin-left: -1em;  
+    color: rgb(21, 101, 192);
+  }
+}
+.icm-word .path5 {
+  &:before {
+    content: $icm-word-path5;  
+    margin-left: -1em;  
+    color: rgb(21, 101, 192);
+  }
+}
+.icm-word .path6 {
+  &:before {
+    content: $icm-word-path6;  
+    margin-left: -1em;  
+    color: rgb(21, 101, 192);
+  }
+}
+.icm-word .path7 {
+  &:before {
+    content: $icm-word-path7;  
+    margin-left: -1em;  
+    color: rgb(21, 101, 192);
+  }
+}
+.icm-word .path8 {
+  &:before {
+    content: $icm-word-path8;  
+    margin-left: -1em;  
+    color: rgb(21, 101, 192);
+  }
+}
+.icm-arrow-point-to-right {
+  &:before {
+    content: $icm-arrow-point-to-right; 
+  }
+}
+.icm-building .path1 {
+  &:before {
+    content: $icm-building-path1;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-building .path2 {
+  &:before {
+    content: $icm-building-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-building .path3 {
+  &:before {
+    content: $icm-building-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-building .path4 {
+  &:before {
+    content: $icm-building-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-building .path5 {
+  &:before {
+    content: $icm-building-path5;  
+    margin-left: -1em;  
+    color: rgb(60, 206, 82);
+  }
+}
+.icm-building .path6 {
+  &:before {
+    content: $icm-building-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-building .path7 {
+  &:before {
+    content: $icm-building-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-building .path8 {
+  &:before {
+    content: $icm-building-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-building .path9 {
+  &:before {
+    content: $icm-building-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-building .path10 {
+  &:before {
+    content: $icm-building-path10;  
+    margin-left: -1em;  
+    color: rgb(60, 206, 82);
+  }
+}
+.icm-building .path11 {
+  &:before {
+    content: $icm-building-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-building .path12 {
+  &:before {
+    content: $icm-building-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-building .path13 {
+  &:before {
+    content: $icm-building-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-building .path14 {
+  &:before {
+    content: $icm-building-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-building .path15 {
+  &:before {
+    content: $icm-building-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-building .path16 {
+  &:before {
+    content: $icm-building-path16;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-building .path17 {
+  &:before {
+    content: $icm-building-path17;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-building .path18 {
+  &:before {
+    content: $icm-building-path18;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-diagram .path1 {
+  &:before {
+    content: $icm-diagram-path1;  
+    color: rgb(60, 206, 82);
+  }
+}
+.icm-diagram .path2 {
+  &:before {
+    content: $icm-diagram-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-diagram .path3 {
+  &:before {
+    content: $icm-diagram-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-diagram .path4 {
+  &:before {
+    content: $icm-diagram-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-diagram .path5 {
+  &:before {
+    content: $icm-diagram-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-diagram .path6 {
+  &:before {
+    content: $icm-diagram-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-envelope-shape {
+  &:before {
+    content: $icm-envelope-shape; 
+  }
+}
+.icm-excel .path1 {
+  &:before {
+    content: $icm-excel-path1;  
+    color: rgb(236, 239, 241);
+  }
+}
+.icm-excel .path2 {
+  &:before {
+    content: $icm-excel-path2;  
+    margin-left: -1em;  
+    color: rgb(56, 142, 60);
+  }
+}
+.icm-excel .path3 {
+  &:before {
+    content: $icm-excel-path3;  
+    margin-left: -1em;  
+    color: rgb(56, 142, 60);
+  }
+}
+.icm-excel .path4 {
+  &:before {
+    content: $icm-excel-path4;  
+    margin-left: -1em;  
+    color: rgb(56, 142, 60);
+  }
+}
+.icm-excel .path5 {
+  &:before {
+    content: $icm-excel-path5;  
+    margin-left: -1em;  
+    color: rgb(56, 142, 60);
+  }
+}
+.icm-excel .path6 {
+  &:before {
+    content: $icm-excel-path6;  
+    margin-left: -1em;  
+    color: rgb(56, 142, 60);
+  }
+}
+.icm-excel .path7 {
+  &:before {
+    content: $icm-excel-path7;  
+    margin-left: -1em;  
+    color: rgb(56, 142, 60);
+  }
+}
+.icm-excel .path8 {
+  &:before {
+    content: $icm-excel-path8;  
+    margin-left: -1em;  
+    color: rgb(56, 142, 60);
+  }
+}
+.icm-excel .path9 {
+  &:before {
+    content: $icm-excel-path9;  
+    margin-left: -1em;  
+    color: rgb(56, 142, 60);
+  }
+}
+.icm-excel .path10 {
+  &:before {
+    content: $icm-excel-path10;  
+    margin-left: -1em;  
+    color: rgb(46, 125, 50);
+  }
+}
+.icm-excel .path11 {
+  &:before {
+    content: $icm-excel-path11;  
+    margin-left: -1em;  
+    color: rgb(250, 250, 250);
+  }
+}
+.icm-facebook-logo {
+  &:before {
+    content: $icm-facebook-logo; 
+  }
+}
+.icm-growth .path1 {
+  &:before {
+    content: $icm-growth-path1;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-growth .path2 {
+  &:before {
+    content: $icm-growth-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-growth .path3 {
+  &:before {
+    content: $icm-growth-path3;  
+    margin-left: -1em;  
+    color: rgb(60, 206, 82);
+  }
+}
+.icm-growth .path4 {
+  &:before {
+    content: $icm-growth-path4;  
+    margin-left: -1em;  
+    color: rgb(60, 206, 82);
+  }
+}
+.icm-icon-1 {
+  &:before {
+    content: $icm-icon-1; 
+  }
+}
+.icm-icon {
+  &:before {
+    content: $icm-icon; 
+  }
+}
+

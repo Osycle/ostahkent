@@ -1,0 +1,157 @@
+/* 
+		_footer.scss
+*/
+
+/*
+										---FOOTER---
+*/
+
+
+#footer{
+	position: relative;
+	//min-height: 150px;
+	line-height: 170%;
+	color: white;
+	background-position: center -59px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 1;
+	background-color: #1a1a1a;
+	overflow: hidden;
+
+	@media (max-width: 991px){
+		overflow: hidden;
+		//background-color: $color-1;
+		.inline-list{
+			display: none;
+		}
+	}
+	hr{
+		margin-top: 40px;
+		border-style: dashed;
+		@media (max-width: 991px) {
+			margin-top: 0px;
+		}
+	}
+	.entry-content{
+		background-size: cover;
+		background-position: center;
+		position: relative;
+		overflow: hidden;
+		&:before{
+			@extend .clafclear;
+			height: 100%;
+			background-color: $color-1;
+			width: 100%;
+			right: -30%;
+			top: 0;
+			transform: skewX(-20deg);
+			@media (max-width: 1569px) {
+				right: -35%;
+			}
+			@media (max-width: 991px) {
+				display: none;
+			}
+		}
+	}
+}
+.footer-content{
+	padding: 40px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+
+	@media (max-width: 991px) {
+		display: block;
+	}
+	li{
+		margin-top: 7px;
+		margin-bottom: 7px;
+	}
+}
+.footer-info{
+	margin-left: 6%;
+	@media (max-width: 991px) {
+		display: none;
+	}
+	.items{
+		display: flex;
+		position: relative;
+		word-break: break-word;
+	}
+	.item{
+		display: flex;
+		padding-right: 15px;
+		padding-left: 15px;
+		width: 100%;
+		min-width: (100/3)#{"%"};
+		position: relative;
+		&:before{
+			@extend .clafclear;
+			background-color: rgba(white, 0.2);
+			width: 1px;
+			height: 240px;
+			top: -40px;
+			right: 0;
+		}
+		&:last-child{
+			&:before{
+				display: none;
+			}
+		}
+		.icon-content{
+			min-width: 30px;
+			i{
+				font-size: em(22);
+			}
+		}
+		h3{
+			font-weight: 400;
+			margin-top: 0;
+		}
+	}
+	.small{
+		font-size: 80%;
+	}
+}
+
+.copy-content{
+	font-size: 0.85em;
+	padding: 8px 0;
+	color: white;
+	background-position: center 0px;
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-color: black;
+	.container{
+
+	}
+
+	.row{
+		@media (min-width: 992px) {
+			display: flex;
+			align-items: center;
+		}
+	}
+}
+
+.copyright{
+	
+}
+.dev{
+}
+.contacts-map{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+#map-canvas{
+	height: 400px;
+	width: 100%;
+}
+@media (max-width: 991px) {
+	#map-canvas{
+		height: 240px;
+		width: 100%;
+	}
+}

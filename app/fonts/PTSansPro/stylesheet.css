@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'PTSansPro-Caption';
+    src: url('PTSansPro-Caption.woff2') format('woff2'),
+        url('PTSansPro-Caption.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTSansPro-CaptionBold';
+    src: url('PTSansPro-CaptionBold.woff2') format('woff2'),
+        url('PTSansPro-CaptionBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTSansPro-Demi';
+    src: url('PTSansPro-Demi.woff2') format('woff2'),
+        url('PTSansPro-Demi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTSansPro';
+    src: url('PTSansPro-ExtraBold.woff2') format('woff2'),
+        url('PTSansPro-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
