@@ -56,7 +56,8 @@
 			dots: false,
 			dotsEach: false,
 			autoplay: true,
-			touchDrag: false,
+			touchDrag: checkSm(),
+			mouseDrag: checkSm(),
 			responsive:{
 				0:{items:1},
 				991:{items:1}
@@ -64,6 +65,21 @@
 			navText : owlBtn,
 			margin: 0
 		});
+		$(".short-news-items.owl-carousel").owlCarousel({
+			nav: true,
+			//items: 3,
+			dots: false,
+			dotsEach: false,
+			autoplay: true,
+			touchDrag: false,
+			responsive:{
+				0:{items:1},
+				991:{items:4}
+			},
+			navText : owlBtn,
+			margin: 20
+		});
+
 
 
 
