@@ -57,6 +57,9 @@
 		@extend .shadow-def;
 		box-shadow: $shadow-contrast-1;
 		padding: 30px;
+		input, textarea{
+			border-color: $color-gray-2;
+		}
 	}
 	h3{
 		font-family: $font-family-1;
